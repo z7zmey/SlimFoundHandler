@@ -1,0 +1,31 @@
+{
+  "name": "z7zmey/SlimFoundHandler",
+  "description": "Adaptive Slim 3 found handler",
+  "keywords": ["Slim", "SlimFramework", "Slim3", "FoundHandler"],
+  "type": "library",
+  "license": "BSD",
+  "homepage": "https://github.com/z7zmey/SlimFoundHandler",
+  "authors": [
+    {
+      "name": "Vadim Slizov",
+      "email": "z7zmey@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "z7zmey@gmail.com",
+    "source": "https://github.com/z7zmey/SlimFoundHandler",
+    "issues": "https://github.com/z7zmey/SlimFoundHandler/issues"
+  },
+  "require": {
+    "php": ">=5.3",
+    "slim/slim": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "z7zmey\\": "./src"
+    }
+  }
+}
