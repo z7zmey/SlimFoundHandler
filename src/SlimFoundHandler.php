@@ -50,6 +50,9 @@ class SlimFoundHandler implements InvocationStrategyInterface
             } elseif ($class && $response instanceof $class->name) {
                 $args[] = $response;
                 continue;
+            } elseif (array_key_exists($parameterName = $parameter->getName(), $routeArguments)) {
+                $args[] = $routeArguments[$parameterName];
+                continue;
             }
             
             $args[] = null;

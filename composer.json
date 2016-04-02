@@ -1,6 +1,6 @@
 {
   "name": "z7zmey/slim-found-handler",
-  "description": "Adaptive Slim 3 found handler",
+  "description": "Slim 3 found handler",
   "keywords": ["Slim", "SlimFramework", "Slim3", "FoundHandler"],
   "type": "library",
   "license": "BSD",
@@ -17,7 +17,7 @@
     "issues": "https://github.com/z7zmey/SlimFoundHandler/issues"
   },
   "require": {
-    "php": ">=5.3",
+    "php": ">=5.5",
     "slim/slim": "^3.0"
   },
   "require-dev": {
